@@ -11,6 +11,8 @@
 		4216EC5927DD259D00B163A1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4216EC5827DD259D00B163A1 /* ContentView.swift */; };
 		4216EC5B27DD259D00B163A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4216EC5A27DD259D00B163A1 /* Assets.xcassets */; };
 		4216EC5E27DD259D00B163A1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4216EC5D27DD259D00B163A1 /* Preview Assets.xcassets */; };
+		4216EC6727DD272300B163A1 /* BhuTukaExpandedOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4216EC6527DD272300B163A1 /* BhuTukaExpandedOne-Regular.ttf */; };
+		4216EC6827DD272300B163A1 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4216EC6627DD272300B163A1 /* OFL.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		4216EC5827DD259D00B163A1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4216EC5A27DD259D00B163A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4216EC5D27DD259D00B163A1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4216EC6527DD272300B163A1 /* BhuTukaExpandedOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BhuTukaExpandedOne-Regular.ttf"; sourceTree = "<group>"; };
+		4216EC6627DD272300B163A1 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 				4216EC5627DD259D00B163A1 /* SwiftUI_T11App.swift */,
 				4216EC5827DD259D00B163A1 /* ContentView.swift */,
 				4216EC5A27DD259D00B163A1 /* Assets.xcassets */,
+				4216EC6427DD272300B163A1 /* BhuTuka_Expanded_One */,
 				4216EC5C27DD259D00B163A1 /* Preview Content */,
 			);
 			path = "SwiftUI T11";
@@ -65,6 +70,15 @@
 				4216EC5D27DD259D00B163A1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4216EC6427DD272300B163A1 /* BhuTuka_Expanded_One */ = {
+			isa = PBXGroup;
+			children = (
+				4216EC6527DD272300B163A1 /* BhuTukaExpandedOne-Regular.ttf */,
+				4216EC6627DD272300B163A1 /* OFL.txt */,
+			);
+			path = BhuTuka_Expanded_One;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +140,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4216EC5E27DD259D00B163A1 /* Preview Assets.xcassets in Resources */,
+				4216EC6727DD272300B163A1 /* BhuTukaExpandedOne-Regular.ttf in Resources */,
+				4216EC6827DD272300B163A1 /* OFL.txt in Resources */,
 				4216EC5B27DD259D00B163A1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
